@@ -7,6 +7,5 @@ def solution(my_string):
     answer.sort()
     return answer
     '''
-    answer = list(map(int, filter(lambda x : x.isdigit(), my_string)))
-    answer.sort()
+    answer = sorted(map(int, filter(lambda x : x.isdigit(), my_string)))
     return answer
