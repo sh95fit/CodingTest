@@ -1,9 +1,6 @@
 def solution(name, yearning, photo):
     answer = []
-    name_score = {}
-    
-    for i in range(len(name)):
-        name_score[name[i]] = yearning[i]
+    name_score = dict(zip(name,yearning))
     
     for p in photo :
         sum = 0
