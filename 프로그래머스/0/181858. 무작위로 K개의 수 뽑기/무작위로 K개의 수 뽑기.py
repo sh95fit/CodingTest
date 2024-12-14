@@ -1,10 +1,10 @@
 def solution(arr, k):
-    seen = set()  
+    # seen = set()  
     answer = [] 
 
     for num in arr:
-        if num not in seen:  
-            seen.add(num)
+        if num not in answer:  
+            # seen.add(num)
             answer.append(num)
         if len(answer) == k:  
             break
