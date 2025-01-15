@@ -20,7 +20,7 @@
 
 <p>예를 들어, N = 4이고, 표가 아래와 같이 채워져 있는 경우를 살펴보자.</p>
 
-<table class="table table-bordered" style="line-height: 20.8px; width: 158px; margin-left: 0px; margin-right: 0px;">
+<table class="table table-bordered" style="line-height:20.8px; width:158px">
 	<tbody>
 		<tr>
 			<td style="text-align:center">1</td>
