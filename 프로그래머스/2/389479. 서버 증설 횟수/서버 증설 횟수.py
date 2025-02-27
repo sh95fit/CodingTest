@@ -6,7 +6,7 @@ def solution(players, m, k):
     cnt = 0
     for player in players :
         if active_server > 0 :
-            if player > m*active_server :
+            if player >= m*active_server :
                 required_server = (player)//m - active_server
                 cnt += required_server
                 server_list.appendleft(required_server)
